@@ -17,7 +17,7 @@ class binarysearch
         {
             for(j=0;j<n-1-i;j++)
             {
-                if(a[j]>a[j+1])
+                if(a[j]>a[j+1]) // sorting has been done from increasing to decreasing
                 {
                     t=a[j];
                     a[j]=a[j+1];
